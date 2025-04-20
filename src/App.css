@@ -1,0 +1,33 @@
+.iv-container {
+  padding-top: 24px;
+}
+
+/* Reuse btn-primary/secondary in all components */
+.btn-primary,
+.btn-secondary {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #0053ff;
+  color: #fff;
+  transition: background 0.15s ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #0041d4;
+}
+
+.btn-primary:disabled {
+  background: #95a5c6;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: #ddd;
+  color: #333;
+}
